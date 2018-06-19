@@ -1,0 +1,27 @@
+
+
+body {
+  padding: 50px 10px;
+  margin: 0 auto;
+  max-width: 900px;}
+
+#some-element {
+  border: 1px solid #ccc;
+  display: none;
+  font-size: 10px;
+  margin-top: 10px;
+  padding: 5px;
+  text-transform: uppercase;}
+
+#some-div:hover #some-element {display: block;}
+/*<div id="some-div"><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+	when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap 
+	into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum 
+	passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</div></p>*/
+  
+  <span id="some-element">
+    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard 
+	dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+  </span>
+  
+<span title="I am hovering over the text">This is the text I want to have a mousover</span>

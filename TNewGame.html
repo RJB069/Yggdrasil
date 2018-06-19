@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="Tabs.css">
+<link rel="stylesheet" type="text/css" href="Tooltip.css">
+<title>Norse Mythology</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Times New Roman;}
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: solid;
+	border-bottom:solid}
+.button1 {background-color: gold;}
+
+</style>
+</head>
+<body>
+
+<p>Here is my website about Norse Mythology:</P>
+<div id="Yggdrasilt" class="tabcontent">
+</div>
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'Yggdrasil')">Yggdrasil</button>
+  <button class="tablinks" onclick="openCity(event, 'Niflheim')">Niflheim</button>
+  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
+</div>
+<div id="Yggdrasil" class="tabcontent" >
+$T="T";
+  <h3>Yggdrasil - The Tree of Life</h3>
+  <p>Yggdrasil is an Ash tree, that extends out over all of the 9 known realms and above the heavens.
+The 3 Roots of Yggdrasil are:<br /><br />
+
+The first root - Is in Asguard home of the Gods, and is next to the well name Urd and this is where the gods had daily meetings<br /><br />
+The second root - Goes to Jotunheim and is next to the Mimir's well.<br /><br />
+The Third root - Goes to Niflheim, the well close to it is Hvergelmir. The dragon Nidhug is chewing on this root. Nidhug will also feast on the blood of the dead bodies that arrive in Hel. <br /><br />
+
+At the top of Yggdrasil there is a nameless eagle that is Nidhug are enemies, there is a squirrel name Ratatosk. The eagle stays at the top of the tree and Nidug at the bottom, Ratatosk is the reason that the hatred between Nidhug and the eagle continues to grow, every time one of the two says something about the other Ratatosk runs to tell the other. 
+
+</p>
+</div>
+<div id="Niflheim" class="tabcontent">
+  <h3>Niflheim: The World of Fog and Mist</h3>
+  <p>Niflheim is a dark and frozen place, it was one of the first worlds and is in the northern area of 
+  <span class="tooltip">Ginnungagap.
+  <span class="tooltiptext">Ginnungagap is the great void in which the world was created. </span>
+</span>
+   So what happens if I start typing here?</p>
+</div>
+<div id="Tokyo" class="tabcontent">
+  <h3>Tokyo</h3>
+  <p>Tokyo is the capital of Japan.</p>
+</div>
+
+<script>
+function openCity(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+</script>
+<?php
+
+switch ($T) {
+    case "Y":
+	<h3>Yggdrasil</h3>
+	<p>Yggdrasil - The Tree of Life.</p> 
+        echo "Your favorite color is red!";
+        break;
+    case "blue":
+        echo "Your favorite color is blue!";
+        break;
+    case "green":
+        echo "Your favorite color is green!";
+        break;
+    default:
+        echo "Your favorite color is neither red, blue, nor green!";
+}
+?>
+<script>
+function openCityt(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+</script>
+</body>
+</html> 

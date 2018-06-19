@@ -1,0 +1,228 @@
+/*<meta name="viewport" content="width=device-width, initial-scale=1">*/
+
+							/*Yggdrasil*/
+#Yggdrasil header, footer{color: #ADFF2F!important;
+				background-color: #228b22 !important;
+				border: 5px double brown !important;}
+#Yggdrasil footer, header{color: #ADFF2F!important;
+				background-color: #228b22 !important;
+				border: 5px double brown !important;}
+				
+							/*Asgard*/
+#Asgard header, footer{color: gold!important;
+				background-color: darkgreen !important;
+				border: 5px double black !important;}
+#Asgard footer, header{color: gold !important;
+				background-color: darkgreen !important;
+				border: 5px double black !important;}
+						
+							/*Valhalla */
+#Valhalla  header, footer{color: darkgray !important;
+				background-color: gold !important;
+				border: 5px double #228b22 !important;}
+#Valhalla  footer, header{color: darkgray !important;
+				background-color: gold !important;
+				border: 5px double #228b22 !important;}
+						
+							/*Helheim*/
+#Helheim header, footer{color: white!important;
+				background-color: black !important;
+				border: 5px double red !important;}
+#Helheim footer, header{color: white !important;
+				background-color: black !important;
+				border: 5px double red !important;}
+						
+							/*Vanaheim*/
+#Vanaheim header, footer{color: gold !important;
+				background-color: #4169e1 !important;
+				border: 5px double silver !important;}
+#Vanaheim footer, header{color: gold !important;
+				background-color: #4169e1 !important;
+				border: 5px double silver !important;}
+						
+							/*Jotunheim*/
+#Jotunheim header, footer{color: purple !important;
+				background-color:black !important;
+				border: 5px double blue !important;}
+#Jotunheim footer, header{color: purple !important;
+				background-color: black !important;
+				border: 5px double blue !important;}
+						
+							/*Niflheim*/
+#Niflheim header, footer{color: white !important;
+				background-color:darkblue !important;
+				border: 5px double skyblue !important;}
+#Niflheim footer, header{color: white !important;
+				background-color: darkblue !important;
+				border: 5px double skyblue !important;}
+						
+							/*Muspelheim*/
+#Muspelheim header, footer{color: gold !important;
+				background-color:black !important;
+				border: 5px double darkred !important;}
+#Muspelheim footer, header{color: gold !important;
+				background-color: black !important;
+				border: 5px double darkred !important;}
+						
+							/*Midgard*/
+#Midgard header, footer{color: orange !important;
+				background-color:#228b22 !important;
+				border: 5px double brown !important;}
+#Midgard footer, header{color: gold !important;
+				background-color: #228b22 !important;
+				border: 5px double brown !important;}
+						
+							/*Alfheim*/
+#Alfheim header, footer{color: darkgoldenrod !important;
+				background-color: silver !important;
+				border: 5px double GreenYellow !important;}
+#Alfheim footer, header{color: darkgoldenrod !important;
+				background-color: silver !important;
+				border: 5px double GreenYellow !important;}
+						
+							/*Svartalfheim*/
+#Svartalfheim header, footer{color: silver !important;
+				background-color: #3F250B !important;
+				border: 5px double darkgoldenrod !important;}
+#Svartalfheim footer, header{color: silver !important;
+				background-color: #3F250B !important;
+				border: 5px double darkgoldenrod !important;}
+											
+header, footer {font-family: "Times New Roman", Times, serif;
+				font-size: 15pt;
+				background-color: black;
+				border: 5px double red;
+				color: white;
+				text-align: center;
+				padding: 0	em;
+				margin-bottom: 0px;
+				margin-left: 35px;
+				margin-right: 35px;} 
+				
+
+p {border: 5px solid blue;
+	margin-top: 30px;
+	margin-left: 70px;
+	margin-right: 70px;
+	padding: 5px;}
+
+	div{margin-top: 5px;
+		margin-left: 70px;
+		margin-right: 70px;}
+		
+	div > p {border: 5px solid gray;
+			margin-top: 30px;
+			margin-left: 70px;
+			margin-right: 70px;
+			padding: 5px;}
+	
+	
+
+ div > .rjb-button{padding:15px 5px;
+						font-family: "Times New Roman";
+						font-size: 15px;
+						float:left;
+						height: 55px;
+						width:auto;
+						display:block;
+						border-radius: 50%;
+						text-align: center;
+						margin-left: 5px}
+						
+
+							/*Yggdrasil*/
+.rjb-bar .rjb-bar-green:hover{color: brown;
+						background-color: gold;
+						border: 5px double darkgreen;}
+.rjb-bar .rjb-bar-green{color: #ADFF2F;
+						background-color: #228b22;
+						border: 5px double brown;}
+						
+							/*Asgard*/
+.rjb-bar .rjb-bar-gold:hover{color: black;
+						background-color: gold;
+						border: 5px double darkgreen;}
+.rjb-bar .rjb-bar-gold{color: gold;
+						background-color:darkgreen;
+						border: 5px double black;}
+						
+							/*Valhalla*/
+.rjb-bar .rjb-bar-lightII:hover{color: gold;
+						background-color: #228b22;
+						border: 5px double silver}
+.rjb-bar .rjb-bar-lightII{color: darkgray;
+						background-color: gold;
+						border: 5px double #228b22;}
+						
+							/*Vanaheim */
+.rjb-bar .rjb-bar-Vheim:hover{color: #4169e1;
+						background-color: silver;
+						border: 5px double gold}
+.rjb-bar .rjb-bar-Vheim {color: gold;
+						background-color: #4169e1;
+						border: 5px double silver;}
+						
+							/*Jotunheim*/
+.rjb-bar .rjb-bar-dark:hover{color: blue;
+						background-color: purple;
+						border: 5px double black}
+.rjb-bar .rjb-bar-dark{color: purple;
+						background-color: black;
+						border: 5px double blue;}
+						
+							/*Niflheim*/
+.rjb-bar .rjb-bar-blue:hover{color: darkblue;
+						background-color: skyblue;
+						border: 5px double white;}
+.rjb-bar .rjb-bar-blue{color: white;
+						background-color: darkblue;
+						border: 5px double skyblue;}	
+						
+							/*Muspelheim*/
+.rjb-bar .rjb-bar-red:hover{color: darkred;
+						background-color: gold;
+						border: 5px double black;}
+.rjb-bar .rjb-bar-red{color: gold;
+						background-color: black;;
+						border: 5px double darkred;}
+						
+							/*Midgard*/
+.rjb-bar .rjb-bar-Midgard:hover{color: brown;
+						background-color: orange;
+						border: 5px double darkgreen;}
+.rjb-bar .rjb-bar-Midgard{color: orange;
+						background-color:#228b22;
+						border: 5px double brown;}
+						
+							/*Alfheim*/
+.rjb-bar .rjb-bar-light:hover{color: darkgray;
+						background-color: lawngreen;
+						border: 5px double darkgoldenrod}
+.rjb-bar .rjb-bar-light{color: darkgoldenrod;
+						background-color: silver;
+						border: 5px double GreenYellow;}
+						
+							/*Svartalfheim*/
+.rjb-bar .rjb-bar-Dwarf:hover{color: darkgoldenrod;
+						background-color: silver;
+						border: 5px double #3F250B}
+.rjb-bar .rjb-bar-Dwarf{color: silver;
+						background-color: #3F250B;
+						border: 5px double darkgoldenrod;}
+						
+.rjb-bar .rjb-bar-item:hover{color:skyblue; background-color:darkred}
+.rjb-bar .rjb-bar-item{color: white;
+						background-color:black;
+						width:auto;
+						border: 5px double red;}
+
+						
+span img {display: block;
+    margin-left: auto;
+    margin-right: auto;}
+	
+span image-right {float: right;
+		margin-right: 70px;} 
+				
+span image-left {float: left;
+		margin-left: 70px;}
